@@ -1,0 +1,6 @@
+# File: lexforge-backend/app/models/base.py
+# This file defines the SQLAlchemy base class.
+
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
